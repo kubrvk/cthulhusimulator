@@ -13,7 +13,7 @@
 
 ---
 
-## 🐙 Overview
+## Overview
 
 > *"Surface from the abyss. Devour. Evolve."*
 
@@ -22,29 +22,29 @@
 ```
         ┌─────────────────────────────────────────────────────────────┐
         │  WAVE COMBAT                                                │
-        │   • Escalating military threat (Infantry ➔ Tanks ➔ Jets)     │
-        │   • Grab & devour civilians  ➔ +Souls & Health              │
-        │   • Crush vehicles & bosses  ➔ +Massive Souls & Score       │
+        │   - Escalating military threat (Infantry -> Tanks -> Jets)   │
+        │   - Grab & devour civilians  -> +Souls & Health             │
+        │   - Crush vehicles & bosses  -> +Massive Souls & Score      │
         └──────────────────────────────┬──────────────────────────────┘
                                        ▼
         ┌─────────────────────────────────────────────────────────────┐
         │  WAVE INTERMISSION & MUTATIONS                              │
-        │   • Roguelike Drafting: Choose 1 of 3 Eldritch Passives     │
-        │   • Abyss Sanctum: Unlock permanent meta-progression traits │
-        │   • Evolve reach, lifesteal, damage, and tentacle count     │
+        │   - Roguelike Drafting: Choose 1 of 3 Eldritch Passives     │
+        │   - Abyss Sanctum: Unlock permanent meta-progression traits │
+        │   - Evolve reach, lifesteal, damage, and tentacle count     │
         └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🎮 Gameplay Features & Systems
+## Gameplay Features and Systems
 
 <p align="center">
   <img src="Docs/img/13_City_Aerial_Skyline.png" width="49%" alt="Tentacles Reaching Skyscrapers" />
   <img src="Docs/img/17_Combat_Devour_Enemies.png" width="49%" alt="Street Devour Combat" />
 </p>
 
-### 🦑 Procedural Tentacle Combat & Consumption
+### Procedural Tentacle Combat and Consumption
 * **Physics & Inverse Kinematics:** Real-time tentacle reach, physics grabs, and dynamic surface attachment allowing you to whip, slam, and seize targets anywhere on screen.
 * **Grab & Devour Mechanic:** Snatch infantry, fleeing civilians, and light vehicles. Pulling victims into your abyssal maw instantly consumes them for **Souls** and regenerates vital health.
 * **Devastating Eldritch Powers:**
@@ -60,7 +60,7 @@
   <img src="Docs/img/02_AbyssShop_Upgrades.png" width="49%" alt="Abyss Upgrades" />
 </p>
 
-### 🧬 Roguelike Drafting & The Abyss
+### Roguelike Drafting and The Abyss
 * **In-Run Passive Drafts:** Between combat waves, draft from three randomly offered eldritch blessings affecting damage, tentacle reach, movement speed, and lifesteal.
 * **The Abyss (Permanent Meta-Progression):** Bank souls across runs to purchase permanent ascension passives:
   * **Ancient Flesh:** Exponentially scales base Max Health.
@@ -76,7 +76,7 @@
   <img src="Docs/img/06_City_Arrival_Portal.png" width="49%" alt="City Breach Portal" />
 </p>
 
-### 🪖 The City Fights Back (Enemy Roster)
+### The City Fights Back (Enemy Roster)
 The military escalates its response in structured, intense combat waves:
 * **Infantry & Special Forces:** Heavy gunners, snipers, flame troopers, and rocket squads.
 * **Ground Armor:** Armored personnel carriers (APCs), Anti-Air tanks, and Main Battle Tanks firing heavy ballistic shells.
@@ -84,7 +84,7 @@ The military escalates its response in structured, intense combat waves:
 
 ---
 
-## 🏛️ Technical Architecture (C++)
+## Technical Architecture (C++)
 
 Built strictly in native C++ for maximum tick performance and physics reliability:
 
@@ -98,7 +98,7 @@ Built strictly in native C++ for maximum tick performance and physics reliabilit
 
 ---
 
-## 🕹️ Controls
+## Controls
 
 | Key | Action |
 |---|---|
@@ -113,7 +113,7 @@ Built strictly in native C++ for maximum tick performance and physics reliabilit
 
 ---
 
-## 🛠️ Build & Installation
+## Build and Installation
 
 1. Clone repository:
    ```bash
@@ -125,6 +125,6 @@ Built strictly in native C++ for maximum tick performance and physics reliabilit
 
 ---
 
-## 📄 License & Credits
+## License and Credits
 
 Developed by [Kubrick](https://github.com/kubrvk). All rights reserved.
