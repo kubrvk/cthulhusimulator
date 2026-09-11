@@ -1,0 +1,31 @@
+# Visual Studio / Rider / VS Code cache & project files
+.vs/
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+.idea/
+.vscode/
+
+# Unreal Engine folders to ignore
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+.ue/
+**/Binaries/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/Build/
+
+# Logs
+*.log
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
