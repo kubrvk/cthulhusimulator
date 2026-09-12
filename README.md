@@ -37,7 +37,6 @@ Chutllu Sim is a high-octane 3D action roguelike built in Unreal Engine 5. Using
         │   - Abyss Sanctum: Unlock permanent meta-progression traits │
         │   - Evolve reach, lifesteal, damage, and tentacle count     │
         └─────────────────────────────────────────────────────────────┘
-```
 
 ---
 
